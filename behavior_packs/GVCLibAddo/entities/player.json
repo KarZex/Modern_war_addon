@@ -2391,13 +2391,6 @@
           ]
         }
       },
-      "fire:svd": {
-        "add": {
-          "component_groups": [
-            "fire:svd"
-          ]
-        }
-      },
       "fire:m1911": {
         "add": {
           "component_groups": [
