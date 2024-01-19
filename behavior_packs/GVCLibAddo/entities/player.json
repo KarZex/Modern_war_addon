@@ -47,6 +47,230 @@
 				}
 			]
 		},
+    "fire:m1126": {
+      "minecraft:spawn_entity": [
+        {
+          "min_wait_time": 0,
+          "max_wait_time": 0,
+          "single_use": true,
+          "spawn_entity": "fire:m1126",
+          "num_to_spawn": 1,
+          "filters":[
+            {"test":"has_tag","operator":"!=","value":"reload"}
+          ]
+        }
+      ],
+      "minecraft:spell_effects": {
+      }
+    },
+    "fire:lav25": {
+      "minecraft:spawn_entity": [
+        {
+          "min_wait_time": 0,
+          "max_wait_time": 0,
+          "single_use": true,
+          "spawn_entity": "fire:lav25",
+          "num_to_spawn": 1,
+          "filters":[
+            {"test":"has_tag","operator":"!=","value":"reload"}
+          ]
+        }
+      ],
+      "minecraft:spell_effects": {
+      }
+    },
+    "fire:m113": {
+      "minecraft:spawn_entity": [
+        {
+          "min_wait_time": 0,
+          "max_wait_time": 0,
+          "single_use": true,
+          "spawn_entity": "fire:m113",
+          "num_to_spawn": 1,
+          "filters":[
+            {"test":"has_tag","operator":"!=","value":"reload"}
+          ]
+        }
+      ],
+      "minecraft:spell_effects": {
+      }
+    },
+    "fire:aifv": {
+      "minecraft:spawn_entity": [
+        {
+          "min_wait_time": 0,
+          "max_wait_time": 0,
+          "single_use": true,
+          "spawn_entity": "fire:mgt",
+          "num_to_spawn": 1,
+          "filters":[
+            {"test":"has_tag","operator":"!=","value":"reload"}
+          ]
+        }
+      ],
+      "minecraft:spell_effects": {
+      }
+    },
+    "fire:mgt": {
+      "minecraft:spawn_entity": [
+        {
+          "min_wait_time": 0,
+          "max_wait_time": 0,
+          "single_use": true,
+          "spawn_entity": "fire:mgt",
+          "num_to_spawn": 1,
+          "filters":[
+            {"test":"has_tag","operator":"!=","value":"reload"}
+          ]
+        }
+      ],
+      "minecraft:spell_effects": {
+      }
+    },
+    "fire:t34": {
+      "minecraft:spawn_entity": [
+        {
+          "min_wait_time": 0,
+          "max_wait_time": 0,
+          "single_use": true,
+          "spawn_entity": "fire:t34",
+          "num_to_spawn": 1,
+          "filters":[
+            {"test":"has_tag","operator":"!=","value":"reload"}
+          ]
+        }
+      ],
+      "minecraft:spell_effects": {
+      }
+    },
+    "fire:m41": {
+      "minecraft:spawn_entity": [
+        {
+          "min_wait_time": 0,
+          "max_wait_time": 0,
+          "single_use": true,
+          "spawn_entity": "fire:m41",
+          "num_to_spawn": 1,
+          "filters":[
+            {"test":"has_tag","operator":"!=","value":"reload"}
+          ]
+        }
+      ],
+      "minecraft:spell_effects": {
+      }
+    },
+    "fire:m1a2": {
+      "minecraft:spawn_entity": [
+        {
+          "min_wait_time": 0,
+          "max_wait_time": 0,
+          "single_use": true,
+          "spawn_entity": "fire:m1a2",
+          "num_to_spawn": 1,
+          "filters":[
+            {"test":"has_tag","operator":"!=","value":"reload"}
+          ]
+        }
+      ],
+      "minecraft:spell_effects": {
+      }
+    },
+    "fire:t72": {
+      "minecraft:spawn_entity": [
+        {
+          "min_wait_time": 0,
+          "max_wait_time": 0,
+          "single_use": true,
+          "spawn_entity": "fire:t72",
+          "num_to_spawn": 1,
+          "filters":[
+            {"test":"has_tag","operator":"!=","value":"reload"}
+          ]
+        }
+      ],
+      "minecraft:spell_effects": {
+      }
+    },
+    "fire:t55": {
+      "minecraft:spawn_entity": [
+        {
+          "min_wait_time": 0,
+          "max_wait_time": 0,
+          "single_use": true,
+          "spawn_entity": "fire:t55",
+          "num_to_spawn": 1,
+          "filters":[
+            {"test":"has_tag","operator":"!=","value":"reload"}
+          ]
+        }
+      ],
+      "minecraft:spell_effects": {
+      }
+    },
+    "fire:m60": {
+      "minecraft:spawn_entity": [
+        {
+          "min_wait_time": 0,
+          "max_wait_time": 0,
+          "single_use": true,
+          "spawn_entity": "fire:m60",
+          "num_to_spawn": 1,
+          "filters":[
+            {"test":"has_tag","operator":"!=","value":"reload"}
+          ]
+        }
+      ],
+      "minecraft:spell_effects": {
+      }
+    },
+    "fire:pt76": {
+      "minecraft:spawn_entity": [
+        {
+          "min_wait_time": 0,
+          "max_wait_time": 0,
+          "single_use": true,
+          "spawn_entity": "fire:pt76",
+          "num_to_spawn": 1,
+          "filters":[
+            {"test":"has_tag","operator":"!=","value":"reload"}
+          ]
+        }
+      ],
+      "minecraft:spell_effects": {
+      }
+    },
+    "fire:kv2": {
+      "minecraft:spawn_entity": [
+        {
+          "min_wait_time": 0,
+          "max_wait_time": 0,
+          "single_use": true,
+          "spawn_entity": "fire:kv2",
+          "num_to_spawn": 1,
+          "filters":[
+            {"test":"has_tag","operator":"!=","value":"reload"}
+          ]
+        }
+      ],
+      "minecraft:spell_effects": {
+      }
+    },
+    "fire:m1128": {
+      "minecraft:spawn_entity": [
+        {
+          "min_wait_time": 0,
+          "max_wait_time": 0,
+          "single_use": true,
+          "spawn_entity": "fire:m1128",
+          "num_to_spawn": 1,
+          "filters":[
+            {"test":"has_tag","operator":"!=","value":"reload"}
+          ]
+        }
+      ],
+      "minecraft:spell_effects": {
+      }
+    },
     "fire:ah6m": {
       "minecraft:spawn_entity": [
         {
@@ -2514,6 +2738,104 @@
         "add": {
           "component_groups": [
             "fire:ah6m"
+          ]
+        }
+      },
+      "fire:t34": {
+        "add": {
+          "component_groups": [
+            "fire:t34"
+          ]
+        }
+      },
+      "fire:m41": {
+        "add": {
+          "component_groups": [
+            "fire:m41"
+          ]
+        }
+      },
+      "fire:m1a2": {
+        "add": {
+          "component_groups": [
+            "fire:m1a2"
+          ]
+        }
+      },
+      "fire:t72": {
+        "add": {
+          "component_groups": [
+            "fire:t72"
+          ]
+        }
+      },
+      "fire:t55": {
+        "add": {
+          "component_groups": [
+            "fire:t55"
+          ]
+        }
+      },
+      "fire:m60": {
+        "add": {
+          "component_groups": [
+            "fire:m60"
+          ]
+        }
+      },
+      "fire:pt76": {
+        "add": {
+          "component_groups": [
+            "fire:pt76"
+          ]
+        }
+      },
+      "fire:kv2": {
+        "add": {
+          "component_groups": [
+            "fire:kv2"
+          ]
+        }
+      },
+      "fire:m1128": {
+        "add": {
+          "component_groups": [
+            "fire:m1128"
+          ]
+        }
+      },
+      "fire:mgt": {
+        "add": {
+          "component_groups": [
+            "fire:mgt"
+          ]
+        }
+      },
+      "fire:aifv": {
+        "add": {
+          "component_groups": [
+            "fire:aifv"
+          ]
+        }
+      },
+      "fire:lav25": {
+        "add": {
+          "component_groups": [
+            "fire:lav25"
+          ]
+        }
+      },
+      "fire:m1126": {
+        "add": {
+          "component_groups": [
+            "fire:m1126"
+          ]
+        }
+      },
+      "fire:m113": {
+        "add": {
+          "component_groups": [
+            "fire:m113"
           ]
         }
       },

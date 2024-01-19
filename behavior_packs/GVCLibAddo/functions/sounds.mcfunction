@@ -20,3 +20,5 @@ execute @e[family=tankbullet, tag=!sound] ~ ~ ~ playsound fire.tank @a[r=28]
 execute @e[family=rpgbullet, tag=!sound] ~ ~ ~ playsound fire.p90 @a[r=28]
 execute @e[family=missilebullet, tag=!sound] ~ ~ ~ playsound fire.missile @a[r=28]
 execute @s ~ ~ ~ tag @e[family=bullet, tag=!sound] add sound
+execute @e[family=heri,tag=has.rider] ~ ~ ~ playsound fire.heli @a[r=10]
+execute @e[family=tank,tag=has.rider] ~ ~ ~ playsound fire.tankm @a[r=28]

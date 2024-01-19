@@ -391,6 +391,18 @@
 			"sounds": [
 				"sounds/gun/svd"
 			]
+		},
+		"fire.heli": {
+			"category": "hostile",
+			"sounds": [
+				"sounds/sound/heli"
+			]
+		},
+		"fire.tankm": {
+			"category": "hostile",
+			"sounds": [
+				"sounds/sound/tank"
+			]
 		}
   	}
 }
