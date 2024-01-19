@@ -1,0 +1,190 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.da1": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "walking": "(1.0)"
+                        }
+                    ],
+          "on_entry": [
+   "/execute @e[type=addon:da1] ~ ~ ~ fill ~~~ ~63~-4~63 stone",
+   "/execute @e[type=addon:da1] ~ ~ ~ structure load da1 ~~~",
+   "/kill @e[type=addon:da1]"
+          ]
+                },
+                "walking": {
+                    "transitions": [
+                        {
+                            "default": "(1.0)"
+                        }
+                    ],
+          "on_entry": [
+   "/execute @e[type=addon:da1] ~ ~ ~ fill ~~~ ~63~-4~63 stone",
+   "/execute @e[type=addon:da1] ~ ~ ~ structure load da1 ~~~",
+   "/kill @e[type=addon:da1]"
+          ]
+                }
+            }
+        },
+        "controller.animation.dd1": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "walking": "(1.0)"
+                        }
+                    ],
+          "on_entry": [
+   "/execute @e[type=addon:dd1] ~ ~ ~ structure load dd1 ~~~",
+   "/kill @e[type=addon:dd1]"
+          ]
+                },
+                "walking": {
+                    "transitions": [
+                        {
+                            "default": "(1.0)"
+                        }
+                    ],
+          "on_entry": [
+   "/execute @e[type=addon:dd1] ~ ~ ~ structure load dd1 ~~~",
+   "/kill @e[type=addon:dd1]"
+          ]
+                }
+            }
+        },
+        "controller.animation.de1": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "walking": "(1.0)"
+                        }
+                    ],
+          "on_entry": [
+   "/execute @e[type=addon:de1] ~ ~ ~ structure load de1 ~~~",
+   "/kill @e[type=addon:de1]"
+          ]
+                },
+                "walking": {
+                    "transitions": [
+                        {
+                            "default": "(1.0)"
+                        }
+                    ],
+          "on_entry": [
+   "/execute @e[type=addon:de1] ~ ~ ~ structure load de1 ~~~",
+   "/kill @e[type=addon:de1]"
+          ]
+                }
+            }
+        },
+        "controller.animation.de2": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "walking": "(1.0)"
+                        }
+                    ],
+          "on_entry": [
+   "/execute @e[type=addon:de2] ~ ~ ~ structure load de2 ~~~",
+   "/kill @e[type=addon:de2]"
+          ]
+                },
+                "walking": {
+                    "transitions": [
+                        {
+                            "default": "(1.0)"
+                        }
+                    ],
+          "on_entry": [
+   "/execute @e[type=addon:de2] ~ ~ ~ structure load de2 ~~~",
+   "/kill @e[type=addon:de2]"
+          ]
+                }
+            }
+
+        },
+        "controller.animation.de3": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "walking": "(1.0)"
+                        }
+                    ],
+          "on_entry": [
+   "/execute @e[type=addon:de3] ~ ~ ~ structure load de3 ~~-1~",
+   "/kill @e[type=addon:de3]"
+          ]
+                },
+                "walking": {
+                    "transitions": [
+                        {
+                            "default": "(1.0)"
+                        }
+                    ],
+          "on_entry": [
+   "/execute @e[type=addon:de3] ~ ~ ~ structure load de3 ~~-1~",
+   "/kill @e[type=addon:de3]"
+          ]
+                }
+            }
+        },
+        "controller.animation.de4": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "walking": "(1.0)"
+                        }
+                    ],
+          "on_entry": [
+   "/execute @e[type=addon:de4] ~ ~ ~ structure load de4 ~~-1~",
+   "/kill @e[type=addon:de4]"
+          ]
+                },
+                "walking": {
+                    "transitions": [
+                        {
+                            "default": "(1.0)"
+                        }
+                    ],
+          "on_entry": [
+   "/execute @e[type=addon:de4] ~ ~ ~ structure load de4 ~~-1~",
+   "/kill @e[type=addon:de4]"
+          ]
+                }
+            }
+        },
+        "controller.animation.de5": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "walking": "(1.0)"
+                        }
+                    ],
+          "on_entry": [
+   "/execute @e[type=addon:de5] ~ ~ ~ structure load de5 ~~~",
+   "/kill @e[type=addon:de5]"
+          ]
+                },
+                "walking": {
+                    "transitions": [
+                        {
+                            "default": "(1.0)"
+                        }
+                    ],
+          "on_entry": [
+   "/execute @e[type=addon:de5] ~ ~ ~ structure load de5 ~~~",
+   "/kill @e[type=addon:de5]"
+          ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "stark:iceblock": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "explode": {
+            "sound": "hit.snow"
+          }
+        }
+      }
+
+    }
+  }
+}

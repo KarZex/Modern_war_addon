@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "HMG_Glewis"
+    },
+    "tags": [ "gun_craft" ],
+    "pattern": [
+      "AAA",
+      "XCA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:iron_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:emerald",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:iron_block",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:planks",
+        "data": 1
+      }
+    },
+    "result": {
+      "item": "gun:lewis",
+      "count": 1
+    }
+  }
+  
+}

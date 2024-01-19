@@ -1,0 +1,39 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.i4a": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "walking": "(1.0)"
+                        }
+                    ],
+          "on_entry": [
+   "/execute @e[type=addon:i4a] ~ ~ ~ summon addon:c4 ~~~ ",
+   "/execute @e[type=addon:i4a] ~ ~ ~ summon addon:c4 ~~~ ",
+   "/execute @e[type=addon:i4a] ~ ~ ~ summon addon:c4 ~~~ ",
+   "/execute @e[type=addon:i4a] ~ ~ ~ summon addon:c4 ~~~ ",
+   "/execute @e[type=addon:i4a] ~ ~ ~ summon addon:e4r ~~~ ",
+   "/kill @e[type=addon:i4a]"
+          ]
+                },
+                "walking": {
+                    "transitions": [
+                        {
+                            "default": "(1.0)"
+                        }
+                    ],
+          "on_entry": [
+   "/execute @e[type=addon:i4a] ~ ~ ~ summon addon:c4 ~~~ ",
+   "/execute @e[type=addon:i4a] ~ ~ ~ summon addon:c4 ~~~ ",
+   "/execute @e[type=addon:i4a] ~ ~ ~ summon addon:c4 ~~~ ",
+   "/execute @e[type=addon:i4a] ~ ~ ~ summon addon:c4 ~~~ ",
+   "/execute @e[type=addon:i4a] ~ ~ ~ summon addon:e4r ~~~ ",
+   "/kill @e[type=addon:i4a]"
+          ]
+                }
+            }
+        }
+    }
+}

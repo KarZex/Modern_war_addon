@@ -1,0 +1,39 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.i3b": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "walking": "(1.0)"
+                        }
+                    ],
+          "on_entry": [
+   "/execute @e[type=addon:i3b] ~ ~ ~ summon addon:c3 ~~~ ",
+   "/execute @e[type=addon:i3b] ~ ~ ~ summon addon:c3 ~~~ ",
+   "/execute @e[type=addon:i3b] ~ ~ ~ summon addon:c3 ~~~ ",
+   "/execute @e[type=addon:i3b] ~ ~ ~ summon addon:c3 ~~~ ",
+   "/execute @e[type=addon:i3b] ~ ~ ~ summon addon:f3r ~10~~ ",
+   "/kill @e[type=addon:i3b]"
+          ]
+                },
+                "walking": {
+                    "transitions": [
+                        {
+                            "default": "(1.0)"
+                        }
+                    ],
+          "on_entry": [
+   "/execute @e[type=addon:i3b] ~ ~ ~ summon addon:c3 ~~~ ",
+   "/execute @e[type=addon:i3b] ~ ~ ~ summon addon:c3 ~~~ ",
+   "/execute @e[type=addon:i3b] ~ ~ ~ summon addon:c3 ~~~ ",
+   "/execute @e[type=addon:i3b] ~ ~ ~ summon addon:c3 ~~~ ",
+   "/execute @e[type=addon:i3b] ~ ~ ~ summon addon:f3r ~10~~ ",
+   "/kill @e[type=addon:i3b]"
+          ]
+                }
+            }
+        }
+    }
+}

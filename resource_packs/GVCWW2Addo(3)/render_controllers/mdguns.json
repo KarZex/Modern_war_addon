@@ -1,0 +1,33 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.mdguns": {
+			"geometry": "Array.item_geo[query.skin_id]",
+			"materials": [{"*":"material.default"}],
+			"textures": ["Array.item_texture[query.skin_id]"],
+			"arrays": {
+				"geometries": {
+					"Array.item_geo": [
+					"geometry.A",
+					"geometry.B",
+					"geometry.C",
+					"geometry.D",
+					"geometry.E",
+					"geometry.F",
+					"geometry.empty"
+					]
+				},
+				"textures": {
+					"Array.item_texture": [
+					"texture.A",
+					"texture.B",
+					"texture.C",
+					"texture.D",
+					"texture.E",
+					"texture.F"
+					]
+				}
+			} 
+    }
+  }
+}

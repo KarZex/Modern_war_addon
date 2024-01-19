@@ -1,0 +1,85 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+   "rep": {
+      "textures": "textures/items/rep"
+    },
+   "m1911c": {
+      "textures": "textures/core/m1911"
+    },
+   "barc": {
+      "textures": "textures/core/bar"
+    },
+   "dp28c": {
+      "textures": "textures/core/dp28"
+    },
+   "k98c": {
+      "textures": "textures/core/k98"
+    },
+   "l85c": {
+      "textures": "textures/core/l85"
+    },
+   "m9c": {
+      "textures": "textures/core/m9"
+    },
+   "m4c": {
+      "textures": "textures/core/m4"
+    },
+   "m249c": {
+      "textures": "textures/core/m249"
+    },
+   "mg42c": {
+      "textures": "textures/core/mg42"
+    },
+   "416c": {
+      "textures": "textures/core/416"
+    },
+   "m10c": {
+      "textures": "textures/core/m10"
+    },
+   "svdc": {
+      "textures": "textures/core/svd"
+    },
+   "g36c": {
+      "textures": "textures/core/g36"
+    },
+   "mp40c": {
+      "textures": "textures/core/mp40"
+    },
+   "p38c": {
+      "textures": "textures/core/p38"
+    },
+   "p226c": {
+      "textures": "textures/core/p226"
+    },
+   "ak12c": {
+      "textures": "textures/core/ak12"
+    },
+   "an94c": {
+      "textures": "textures/core/an94"
+    },
+   "glock17c": {
+      "textures": "textures/core/glock17"
+    },
+   "mission": {
+      "textures": "textures/items/mission"
+    },
+   "monpower": {
+      "textures": "textures/items/monpower"
+    },
+   "contract": {
+      "textures": "textures/items/contract"
+    },
+   "ammo": {
+      "textures": "textures/items/ammo"
+    },
+   "dist": {
+      "textures": "textures/items/dist"
+    },
+   "parts": {
+      "textures": "textures/items/parts"
+    }
+
+  }
+}

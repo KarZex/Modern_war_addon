@@ -1,0 +1,213 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.hold": {
+      "states": {
+        "default": {
+          "transitions": [
+            { "mosin": "query.get_equipped_item_name == 'mosin'" },
+			{ "tank2": "query.get_equipped_item_name == 'tank2'" },
+			{ "k98": "query.get_equipped_item_name == 'k98'" },
+			{ "m1": "query.get_equipped_item_name == 'm1'" },
+			{ "t38": "query.get_equipped_item_name == 't38'" },
+            { "mosins": "query.get_equipped_item_name == 'mosins'" },
+			{ "k98s": "query.get_equipped_item_name == 'k98s'" },
+			{ "spring": "query.get_equipped_item_name == 'spring'" },
+			{ "t99s": "query.get_equipped_item_name == 't99s'" },
+			{ "ppsh": "query.get_equipped_item_name == 'ppsh'" },
+			{ "mp40": "query.get_equipped_item_name == 'mp40'" },
+			{ "thom": "query.get_equipped_item_name == 'thom'" },
+			{ "t100": "query.get_equipped_item_name == 't100'" },
+			{ "t99": "query.get_equipped_item_name == 't99'" },
+			{ "dp28": "query.get_equipped_item_name == 'dp28'" },
+			{ "fg42": "query.get_equipped_item_name == 'fg42'" },
+			{ "seishi": "query.get_equipped_item_name == 'seishi'" },
+			{ "rpzb": "query.get_equipped_item_name == 'rpzb'" },
+			{ "t89": "query.get_equipped_item_name == 't89'" },
+			{ "m1b": "query.get_equipped_item_name == 'm1b'" },
+			{ "bar": "query.get_equipped_item_name == 'bar'" },
+			{ "tt33": "query.get_equipped_item_name == 'tt33'" },
+			{ "p38": "query.get_equipped_item_name == 'p38'" },
+			{ "m1911": "query.get_equipped_item_name == 'm1911'" },
+			{ "t14": "query.get_equipped_item_name == 't14'" },
+			{ "kill": "query.get_equipped_item_name('armor_head') == 'e1'" }
+          ]
+        },
+        "mosin": {
+          "on_entry": [            
+            "/function mosinh"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "tank2": {
+          "on_entry": [            
+            "/function tank2h"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "k98": {
+          "on_entry": [            
+            "/function k98h"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+		"m1": {
+          "on_entry": [            
+            "/function m1h"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+		"spring": {
+          "on_entry": [            
+            "/function springh"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "t38": {
+          "on_entry": [            
+            "/function t38h"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "mosins": {
+          "on_entry": [            
+            "/function mosinsh"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "k98s": {
+          "on_entry": [            
+            "/function k98sh"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "t99s": {
+          "on_entry": [            
+            "/function t99sh"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "mosins": {
+          "on_entry": [            
+            "/function mosinsh"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "k98s": {
+          "on_entry": [            
+            "/function k98sh"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "m1s": {
+          "on_entry": [            
+            "/function m1sh"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "t99s": {
+          "on_entry": [            
+            "/function t99sh"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "ppsh": {
+          "on_entry": [            
+            "/function ppshh"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "mp40": {
+          "on_entry": [            
+            "/function mp40h"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "thom": {
+          "on_entry": [            
+            "/function thomh"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "t100": {
+          "on_entry": [            
+            "/function t100h"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "dp28": {
+          "on_entry": [            
+            "/function dp28h"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "fg42": {
+          "on_entry": [            
+            "/function fg42h"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "bar": {
+          "on_entry": [            
+            "/function barh"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "t99": {
+          "on_entry": [            
+            "/function t99h"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "tt33": {
+          "on_entry": [            
+            "/function tt33h"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "p38": {
+          "on_entry": [            
+            "/function p38h"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "m1911": {
+          "on_entry": [            
+            "/function m1911h"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "m1b": {
+          "on_entry": [            
+            "/function m1bh"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "rpzb": {
+          "on_entry": [            
+            "/function rpzbh"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "t89": {
+          "on_entry": [            
+            "/function t89h"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "t14": {
+          "on_entry": [            
+            "/function t14h"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "kill": {
+          "on_entry": [            
+            "/kill @e"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        }
+      }
+    }
+  }
+}

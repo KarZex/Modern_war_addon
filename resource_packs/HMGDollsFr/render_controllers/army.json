@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.army": {
+      "arrays": {
+        "textures": {
+          "Array.base": [ "Texture.free","Texture.flag", "Texture.attack", "Texture.wait", "Texture.follow" ]
+        }
+      },
+      "geometry": "Geometry.armyblock",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Array.base[query.variant]" ]
+    },
+   "controller.render.dollgun": {
+      "geometry": "Geometry.gun",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.an94" ]
+    }
+  }
+}

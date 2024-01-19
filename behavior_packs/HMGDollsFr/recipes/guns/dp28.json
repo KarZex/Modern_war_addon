@@ -1,0 +1,37 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "HMG_Gdp28"
+    },
+    "tags": [ "gun_craft" ],
+    "pattern": [
+      "XCC",
+      "AAA",
+      "XAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:iron_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:emerald",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:iron_block",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:planks",
+        "data": 1
+      }
+    },
+    "result": {
+      "item": "gun:dp28",
+      "count": 1
+    }
+  }
+  
+}

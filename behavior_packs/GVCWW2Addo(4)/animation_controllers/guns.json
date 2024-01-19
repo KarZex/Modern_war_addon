@@ -1,0 +1,570 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.guns": {
+      "states": {
+        "default": {
+          "transitions": [
+		    { "bomb": "query.get_equipped_item_name == 'bomb' && query.item_remaining_use_duration > 0.10" },
+			{ "tbomb": "query.get_equipped_item_name == 'tbomb' && query.item_remaining_use_duration > 0.10" },
+			{ "kamikaze": "query.get_equipped_item_name == 'kamikaze' && query.is_riding && query.item_remaining_use_duration > 0.10" },
+		    { "tank": "query.get_equipped_item_name == 'tank' && query.is_riding && query.item_remaining_use_duration > 0.10" },
+		    { "tank2": "query.get_equipped_item_name == 'tank2' && query.is_riding && query.item_remaining_use_duration > 0.10" },
+			{ "tank3": "query.get_equipped_item_name == 'tank3' && query.is_riding && query.item_remaining_use_duration > 0.10" },
+			{ "tank4": "query.get_equipped_item_name == 'tank4' && query.is_riding && query.item_remaining_use_duration > 0.10" },
+			{ "t1": "query.get_equipped_item_name == 't1' && query.is_riding && query.item_remaining_use_duration > 0.10" },
+			{ "t2": "query.get_equipped_item_name == 't2' && query.is_riding && query.item_remaining_use_duration > 0.10" },
+			{ "t3": "query.get_equipped_item_name == 't3' && query.is_riding && query.item_remaining_use_duration > 0.10" },
+			{ "t4": "query.get_equipped_item_name == 't4' && query.is_riding && query.item_remaining_use_duration > 0.10" },
+            { "mosin": "query.get_equipped_item_name == 'mosin' && query.item_remaining_use_duration > 0.10" },
+			{ "k98": "query.get_equipped_item_name == 'k98' && query.item_remaining_use_duration > 0.10" },
+			{ "m1": "query.get_equipped_item_name == 'm1' && query.item_remaining_use_duration > 0.10" },
+			{ "t38": "query.get_equipped_item_name == 't38' && query.item_remaining_use_duration > 0.10" },
+            { "mosins": "query.get_equipped_item_name == 'mosins' && query.item_remaining_use_duration > 0.10" },
+			{ "k98s": "query.get_equipped_item_name == 'k98s' && query.item_remaining_use_duration > 0.10" },
+			{ "spring": "query.get_equipped_item_name == 'spring' && query.item_remaining_use_duration > 0.10" },
+			{ "t38s": "query.get_equipped_item_name == 't99s' && query.item_remaining_use_duration > 0.10" },
+			{ "ppsh": "query.get_equipped_item_name == 'ppsh' && query.item_remaining_use_duration > 0.10" },
+			{ "mp40": "query.get_equipped_item_name == 'mp40' && query.item_remaining_use_duration > 0.10" },
+			{ "thom": "query.get_equipped_item_name == 'thom' && query.item_remaining_use_duration > 0.10" },
+			{ "t100": "query.get_equipped_item_name == 't100' && query.item_remaining_use_duration > 0.10" },
+			{ "t99": "query.get_equipped_item_name == 't99' && query.item_remaining_use_duration > 0.10" },
+			{ "dp28": "query.get_equipped_item_name == 'dp28' && query.item_remaining_use_duration > 0.10" },
+			{ "fg42": "query.get_equipped_item_name == 'fg42' && query.item_remaining_use_duration > 0.10" },
+			{ "bar": "query.get_equipped_item_name == 'bar' && query.item_remaining_use_duration > 0.10" },
+			{ "tt33": "query.get_equipped_item_name == 'tt33' && query.item_remaining_use_duration > 0.10" },
+			{ "P38": "query.get_equipped_item_name == 'p38' && query.item_remaining_use_duration > 0.10" },
+			{ "m1911": "query.get_equipped_item_name == 'm1911' && query.item_remaining_use_duration > 0.10" },
+			{ "t14": "query.get_equipped_item_name == 't14' && query.item_remaining_use_duration > 0.10" },
+			{ "rpzb": "query.get_equipped_item_name == 'rpzb' && query.item_remaining_use_duration > 0.10" },
+			{ "m1b": "query.get_equipped_item_name == 'm1b' && query.item_remaining_use_duration > 0.10" },
+			{ "t89": "query.get_equipped_item_name == 't89' && query.item_remaining_use_duration > 0.10" },
+            { "rmosin": "query.get_equipped_item_name == 'mosin' && (variable.attack_time > 0.0)" },
+			{ "rk98": "query.get_equipped_item_name == 'k98' && (variable.attack_time > 0.0)" },
+			{ "rm1": "query.get_equipped_item_name == 'm1' && (variable.attack_time > 0.0)" },
+			{ "rt38": "query.get_equipped_item_name == 't38' && (variable.attack_time > 0.0)" },
+            { "rmosins": "query.get_equipped_item_name == 'mosins' && (variable.attack_time > 0.0)" },
+			{ "rk98s": "query.get_equipped_item_name == 'k98s' && (variable.attack_time > 0.0)" },
+			{ "rspring": "query.get_equipped_item_name == 'spring' && (variable.attack_time > 0.0)" },
+			{ "rt38s": "query.get_equipped_item_name == 't99s' && (variable.attack_time > 0.0)" },
+			{ "rppsh": "query.get_equipped_item_name == 'ppsh' && (variable.attack_time > 0.0)" },
+			{ "rmp40": "query.get_equipped_item_name == 'mp40' && (variable.attack_time > 0.0)" },
+			{ "rthom": "query.get_equipped_item_name == 'thom' && (variable.attack_time > 0.0)" },
+			{ "rt100": "query.get_equipped_item_name == 't100' && (variable.attack_time > 0.0)" },
+			{ "rt99": "query.get_equipped_item_name == 't99' && (variable.attack_time > 0.0)" },
+			{ "rdp28": "query.get_equipped_item_name == 'dp28' && (variable.attack_time > 0.0)" },
+			{ "rfg42": "query.get_equipped_item_name == 'fg42' && (variable.attack_time > 0.0)" },
+			{ "rbar": "query.get_equipped_item_name == 'bar' && (variable.attack_time > 0.0)" },
+			{ "rtt33": "query.get_equipped_item_name == 'tt33' && (variable.attack_time > 0.0)" },
+			{ "rP38": "query.get_equipped_item_name == 'p38' && (variable.attack_time > 0.0)" },
+			{ "rm1911": "query.get_equipped_item_name == 'm1911' && (variable.attack_time > 0.0)" },
+			{ "rt14": "query.get_equipped_item_name == 't14' && (variable.attack_time > 0.0)" },
+			{ "rrpzb": "query.get_equipped_item_name == 'rpzb' && (variable.attack_time > 0.0)" },
+			{ "rm1b": "query.get_equipped_item_name == 'm1b' && (variable.attack_time > 0.0)" },
+			{ "rt89": "query.get_equipped_item_name == 't89' && (variable.attack_time > 0.0)" },
+			{ "jap": "query.get_equipped_item_name == 'japan' && query.item_remaining_use_duration > 0.10" },
+			{ "usa": "query.get_equipped_item_name == 'usa' && query.item_remaining_use_duration > 0.10" },
+			{ "ger": "query.get_equipped_item_name == 'germany' && query.item_remaining_use_duration > 0.10" },
+			{ "sov": "query.get_equipped_item_name == 'soviet' && query.item_remaining_use_duration > 0.10" },
+			{ "RED": "query.get_equipped_item_name == 'red' && query.item_remaining_use_duration > 0.10" },
+			{ "BLUE": "query.get_equipped_item_name == 'blue' && query.item_remaining_use_duration > 0.10" },
+			{ "GREEN": "query.get_equipped_item_name == 'green' && query.item_remaining_use_duration > 0.10" },
+			{ "YELLOW": "query.get_equipped_item_name == 'yellow' && query.item_remaining_use_duration > 0.10" }
+          ]
+        },
+        "bomb": {
+          "on_entry": [
+            "/event entity @s fire:bomb",
+            "/clear @s[tag=!reload] gun:bomb 0 1"
+
+          ],
+          "transitions": [ {"default":"!query.is_using_item"}]
+        },
+        "tbomb": {
+          "on_entry": [
+            "/event entity @s fire:tbomb",
+            "/clear @s[tag=!reload] gun:tbomb 0 1"
+
+          ],
+          "transitions": [ {"default":"!query.is_using_item"}]
+        },
+        "tank": {
+          "on_entry": [
+            "/event entity @e[c=2] firet"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 0 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "tank2": {
+          "on_entry": [
+            "/execute @s[tag=!reload] ~~~ event entity @e[c=2] firett",
+			"/scoreboard players remove @s[tag=!reload] g2 1"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 0 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "tank3": {
+          "on_entry": [
+            "/execute @s[tag=!reload] ~~~ event entity @e[c=2] firettt"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 0 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "tank4": {
+          "on_entry": [
+            "/execute @s[tag=!reload] ~~~ event entity @e[c=2] firetttt"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 0 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "t1": {
+          "on_entry": [
+            "/execute @s[tag=!reload] ~~~ event entity @e[c=2] firets",
+			"/scoreboard players set @s[tag=!reload] cooldown 100"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 100 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "t2": {
+          "on_entry": [
+            "/execute @s[tag=!reload] ~~~ event entity @e[c=2] firetg",
+			"/scoreboard players set @s[tag=!reload] cooldown 50"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 50 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "t3": {
+          "on_entry": [
+            "/execute @s[tag=!reload] ~~~ event entity @e[c=2] firetu",
+			"/scoreboard players set @s[tag=!reload] cooldown 60"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 60 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "t4": {
+          "on_entry": [
+            "/execute @s[tag=!reload] ~~~ event entity @e[c=2] firetj",
+			"/scoreboard players set @s[tag=!reload] cooldown 30"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 30 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "riding": {
+          "on_entry": [
+            "/execute @e[family=ww2vehicle,r=2] ~~~ effect @p resistance 99999 255"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 0 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "notriding": {
+          "on_entry": [
+            "/effect @s resistance 0 0"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 0 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "kamikaze": {
+          "on_entry": [
+            "/event entity @e[c=2] kamikaze"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 0 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "mosin": {
+          "on_entry": [
+            "/event entity @s[scores={mosin=1..}] fire:mosin",
+			"/scoreboard players set @s[tag=!reload,scores={mosin=1..}] cooldown 40",
+            "/scoreboard players remove @s[tag=!reload,scores={mosin=1..}] mosin 1"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 40 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "k98": {
+          "on_entry": [
+            "/event entity @s[scores={k98=1..}] fire:k98",
+			"/scoreboard players set @s[tag=!reload,scores={k98=1..}] cooldown 35",
+            "/scoreboard players remove @s[tag=!reload,scores={k98=1..}] k98 1"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 35 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "m1": {
+          "on_entry": [
+            "/event entity @s[scores={m1=1..}] fire:m1",
+			"/playsound fire.ping @s[scores={m1=1}] ~~~",
+			"/scoreboard players set @s[tag=!reload,scores={m1=1..}] cooldown 15",
+            "/scoreboard players remove @s[tag=!reload,scores={m1=1..}] m1 1"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 15 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "spring": {
+          "on_entry": [
+            "/event entity @s[scores={spring=1..}] fire:spring",
+			"/scoreboard players set @s[tag=!reload,scores={spring=1..}] cooldown 30",
+            "/scoreboard players remove @s[tag=!reload,scores={spring=1..}] spring 1"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 30 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "t38": {
+          "on_entry": [
+            "/event entity @s[scores={t38=1..}] fire:t38",
+			"/scoreboard players set @s[tag=!reload,scores={t38=1..}] cooldown 25",
+            "/scoreboard players remove @s[tag=!reload,scores={t38=1..}] t38 1"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 25 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "mosins": {
+          "on_entry": [
+            "/event entity @s[scores={mosins=1..}] fire:mosin",
+			"/scoreboard players set @s[tag=!reload,scores={mosins=1..}] cooldown 40",
+            "/scoreboard players remove @s[tag=!reload,scores={mosins=1..}] mosins 1"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 40 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "k98s": {
+          "on_entry": [
+            "/event entity @s[scores={k98s=1..}] fire:k98",
+			"/scoreboard players set @s[tag=!reload,scores={k98s=1..}] cooldown 35",
+            "/scoreboard players remove @s[tag=!reload,scores={k98s=1..}] k98s 1"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 35 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "t38s": {
+          "on_entry": [
+            "/event entity @s[scores={t99s=1..}] fire:t38",
+			"/scoreboard players set @s[tag=!reload,scores={t99s=1..}] cooldown 25",
+            "/scoreboard players remove @s[tag=!reload,scores={t99s=1..}] t99s 1"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 25 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "ppsh": {
+          "on_entry": [
+            "/event entity @s[scores={ppsh=1..}] fire:ppsh",
+            "/scoreboard players remove @s[tag=!reload,scores={ppsh=1..}] ppsh 1"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 0 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "mp40": {
+          "on_entry": [
+            "/event entity @s[scores={mp40=1..}] fire:mp40",
+            "/scoreboard players remove @s[tag=!reload,scores={mp40=1..}] mp40 1"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 0 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "thom": {
+          "on_entry": [
+            "/event entity @s[scores={thom=1..}] fire:thom",
+            "/scoreboard players remove @s[tag=!reload,scores={thom=1..}] thom 1"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 0 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "t100": {
+          "on_entry": [
+            "/event entity @s[scores={t100=1..}] fire:t100",
+            "/scoreboard players remove @s[tag=!reload,scores={t100=1..}] t100 1"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 0 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "t99": {
+          "on_entry": [
+            "/event entity @s[scores={t99=1..}] fire:t99",
+            "/scoreboard players remove @s[tag=!reload,scores={t99=1..}] t99 1"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 1 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "dp28": {
+          "on_entry": [
+            "/event entity @s[scores={dp28=1..}] fire:dp28",
+            "/scoreboard players remove @s[tag=!reload,scores={dp28=1..}] dp28 1"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 1 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "fg42": {
+          "on_entry": [
+            "/event entity @s[scores={fg42=1..}] fire:fg42",
+            "/scoreboard players remove @s[tag=!reload,scores={fg42=1..}] fg42 1"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 0 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "tt33": {
+          "on_entry": [
+            "/event entity @s[scores={tt33=1..}] fire:tt33",
+            "/scoreboard players remove @s[tag=!reload,scores={tt33=1..}] tt33 1"
+          ],
+          "transitions": [ {"default":"!query.is_using_item"}]
+        },
+        "P38": {
+          "on_entry": [
+            "/event entity @s[scores={p38=1..}] fire:p38",
+            "/scoreboard players remove @s[tag=!reload,scores={p38=1..}] p38 1"
+          ],
+          "transitions": [ {"default":"!query.is_using_item"}]
+        },
+        "m1911": {
+          "on_entry": [
+            "/event entity @s[scores={m1911=1..}] fire:m1911",
+            "/scoreboard players remove @s[tag=!reload,scores={m1911=1..}] m1911 1"
+          ],
+          "transitions": [ {"default":"!query.is_using_item"}]
+        },
+        "t14": {
+          "on_entry": [
+            "/event entity @s[scores={t14=1..}] fire:t14",
+            "/scoreboard players remove @s[tag=!reload,scores={t14=1..}] t14 1"
+          ],
+          "transitions": [ {"default":"!query.is_using_item"}]
+        },
+        "bar": {
+          "on_entry": [
+            "/event entity @s[scores={bar=1..}] fire:bar",
+            "/scoreboard players remove @s[tag=!reload,scores={bar=1..}] bar 1"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 0 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "rpzb": {
+          "on_entry": [
+            "/event entity @s[scores={rpzb=1..}] fire:rpzb",
+			"/scoreboard players set @s[tag=!reload,scores={rpzb=1..}] cooldown 50",
+            "/scoreboard players remove @s[tag=!reload,scores={rpzb=1..}] rpzb 1"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 50 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "t89": {
+          "on_entry": [
+            "/event entity @s[scores={t89=1..}] fire:t89",
+			"/scoreboard players set @s[tag=!reload,scores={t89=1..}] cooldown 10",
+            "/scoreboard players remove @s[tag=!reload,scores={t89=1..}] t89 1"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 10 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "m1b": {
+          "on_entry": [
+            "/event entity @s[scores={m1b=1..}] fire:m1b",
+			"/scoreboard players set @s[tag=!reload,scores={m1b=1..}] cooldown 50",
+            "/scoreboard players remove @s[tag=!reload,scores={m1b=1..}] m1b 1"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 50 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "rmosin": {
+          "on_entry": [            
+            "/function mosinr"
+          ],
+          "transitions": [ {"default":"(variable.attack_time <= 0.0)"}]
+        },
+        "rk98": {
+          "on_entry": [            
+            "/function k98r"
+          ],
+          "transitions": [ {"default":"(variable.attack_time <= 0.0)"}]
+        },
+		"rm1": {
+          "on_entry": [            
+            "/function m1r"
+          ],
+          "transitions": [ {"default":"(variable.attack_time <= 0.0)"}]
+        },
+        "rt38": {
+          "on_entry": [            
+            "/function t38r"
+          ],
+          "transitions": [ {"default":"(variable.attack_time <= 0.0)"}]
+        },
+        "rmosins": {
+          "on_entry": [            
+            "/function mosinsr"
+          ],
+          "transitions": [ {"default":"(variable.attack_time <= 0.0)"}]
+        },
+        "rk98s": {
+          "on_entry": [            
+            "/function k98sr"
+          ],
+          "transitions": [ {"default":"(variable.attack_time <= 0.0)"}]
+        },
+        "rspring": {
+          "on_entry": [            
+            "/function springr"
+          ],
+          "transitions": [ {"default":"(variable.attack_time <= 0.0)"}]
+        },
+        "rt38s": {
+          "on_entry": [            
+            "/function t99sr"
+          ],
+          "transitions": [ {"default":"(variable.attack_time <= 0.0)"}]
+        },
+        "rppsh": {
+          "on_entry": [            
+            "/function ppshr"
+          ],
+          "transitions": [ {"default":"(variable.attack_time <= 0.0)"}]
+        },
+        "rmp40": {
+          "on_entry": [            
+            "/function mp40r"
+          ],
+          "transitions": [ {"default":"(variable.attack_time <= 0.0)"}]
+        },
+        "rthom": {
+          "on_entry": [            
+            "/function thomr"
+          ],
+          "transitions": [ {"default":"(variable.attack_time <= 0.0)"}]
+        },
+        "rt100": {
+          "on_entry": [            
+            "/function t100r"
+          ],
+          "transitions": [ {"default":"(variable.attack_time <= 0.0)"}]
+        },
+        "rdp28": {
+          "on_entry": [            
+            "/function dp28r"
+          ],
+          "transitions": [ {"default":"(variable.attack_time <= 0.0)"}]
+        },
+        "rfg42": {
+          "on_entry": [            
+            "/function fg42r"
+          ],
+          "transitions": [ {"default":"(variable.attack_time <= 0.0)"}]
+        },
+        "rbar": {
+          "on_entry": [            
+            "/function barr"
+          ],
+          "transitions": [ {"default":"(variable.attack_time <= 0.0)"}]
+        },
+        "rt99": {
+          "on_entry": [            
+            "/function t99r"
+          ],
+          "transitions": [ {"default":"(variable.attack_time <= 0.0)"}]
+        },
+        "rtt33": {
+          "on_entry": [            
+            "/function tt33r"
+          ],
+          "transitions": [ {"default":"(variable.attack_time <= 0.0)"}]
+        },
+        "rp38": {
+          "on_entry": [            
+            "/function p38r"
+          ],
+          "transitions": [ {"default":"(variable.attack_time <= 0.0)"}]
+        },
+        "rm1911": {
+          "on_entry": [            
+            "/function m1911r"
+          ],
+          "transitions": [ {"default":"(variable.attack_time <= 0.0)"}]
+        },
+        "rt14": {
+          "on_entry": [            
+            "/function t14r"
+          ],
+          "transitions": [ {"default":"(variable.attack_time <= 0.0)"}]
+        },
+        "rm1b": {
+          "on_entry": [            
+            "/function m1br"
+          ],
+          "transitions": [ {"default":"(variable.attack_time <= 0.0)"}]
+        },
+        "rrpzb": {
+          "on_entry": [            
+            "/function rpzbr"
+          ],
+          "transitions": [ {"default":"(variable.attack_time <= 0.0)"}]
+        },
+        "rt89": {
+          "on_entry": [            
+            "/function t89r"
+          ],
+          "transitions": [ {"default":"(variable.attack_time <= 0.0)"}]
+        },
+        "empty": {
+          "on_entry": [
+            "/playsound empty.a1 @s ~~~"
+          ],
+          "transitions": [ {"default":"variable.cooltime = (variable.cooltime ?? 0);variable.cooltime = variable.cooltime < 15 ? variable.cooltime + 1:0;return variable.cooltime == 0;"}]
+        },
+        "S": {
+          "on_entry": [            
+            "/tag @e[family=SOV,tag=free] remove free"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "NS": {
+          "on_entry": [            
+            "/event entity @e[family=SOV,tag=!free] free",
+			"/tag @e[family=SOV,tag=!free] add free"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+		"G": {
+          "on_entry": [            
+            "/tag @e[family=GER,tag=free] remove free"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+		"NG": {
+          "on_entry": [            
+            "/event entity @e[family=GER,tag=!free] free",
+			"/tag @e[family=GER,tag=!free] add free"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "U": {
+          "on_entry": [            
+            "/tag @e[family=USA,tag=free] remove free"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "NU": {
+          "on_entry": [            
+            "/event entity @e[family=USA,tag=!free] free",
+			"/tag @e[family=USA,tag=!free] add free"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "J": {
+          "on_entry": [            
+           "/tag @e[family=JAP,tag=free] remove free"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "NJ": {
+          "on_entry": [            
+            "/event entity @e[family=JAP,tag=!free] free",
+			"/tag @e[family=JAP,tag=!free] add free"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "YELLOW": {
+          "on_entry": [            
+            "/event entity @e[family=SOV,c=15,tag=!free] flag",
+			"/event entity @e[family=GER,c=15,tag=!free] flag",
+			"/event entity @e[family=USA,c=15,tag=!free] flag",
+			"/event entity @e[family=JAP,c=15,tag=!free] flag"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "RED": {
+          "on_entry": [            
+            "/event entity @e[family=SOV,c=15,tag=!free] attack",
+			"/event entity @e[family=GER,c=15,tag=!free] attack",
+			"/event entity @e[family=USA,c=15,tag=!free] attack",
+			"/event entity @e[family=JAP,c=15,tag=!free] attack"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "GREEN": {
+          "on_entry": [            
+            "/event entity @e[family=SOV,c=15,tag=!free] wait",
+			"/event entity @e[family=GER,c=15,tag=!free] wait",
+			"/event entity @e[family=USA,c=15,tag=!free] wait",
+			"/event entity @e[family=JAP,c=15,tag=!free] wait"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        },
+        "BLUE": {
+          "on_entry": [            
+            "/event entity @e[family=SOV,c=15,tag=!free] follow",
+			"/event entity @e[family=GER,c=15,tag=!free] follow",
+			"/event entity @e[family=USA,c=15,tag=!free] follow",
+			"/event entity @e[family=JAP,c=15,tag=!free] follow"
+          ],
+          "transitions": [ { "default": "(1.0)"}]
+        }
+      }
+    }
+  }
+}

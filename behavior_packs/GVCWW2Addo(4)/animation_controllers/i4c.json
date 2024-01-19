@@ -1,0 +1,31 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.i4c": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "walking": "(1.0)"
+                        }
+                    ],
+          "on_entry": [
+
+          ]
+                },
+                "walking": {
+                    "transitions": [
+                        {
+                            "default": "(1.0)"
+                        }
+                    ],
+          "on_entry": [
+   "/summon horse ",
+   "/ride @e[type=minecraft:horse,c=1] summon_rider addon:c4",
+   "/kill @e[type=addon:i4c]"
+          ]
+                }
+            }
+        }
+    }
+}

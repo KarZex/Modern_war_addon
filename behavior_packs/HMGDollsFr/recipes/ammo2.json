@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "HMG_ammo2"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "AAA",
+	  "AAA",
+	  "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "zex:ammo",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "zex:ammo2",
+      "count": 1
+    }
+  }
+  
+}

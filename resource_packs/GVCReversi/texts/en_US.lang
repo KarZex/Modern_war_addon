@@ -1,0 +1,206 @@
+entity.addon:ga.name=G_S
+entity.zex:iceblaze.name=Frost
+entity.zex:icezombie.name=Zombie
+item.gun:m249=M249
+item.empty:auge=AUG §4[Empty]
+item.ammo:m249a=M249 Magazine
+entity.addon:gb1.name=G_VeteranG
+entity.addon:gb2.name=G_VeteranG
+entity.addon:gb3.name=G_VeteranG
+entity.addon:gb4.name=G_VeteranG
+entity.addon:gb5.name=G_VeteranG
+entity.addon:gb6.name=G_VeteranG
+
+entity.addon:gc1.name=G_EliteG
+entity.addon:gc2.name=G_EliteG
+entity.addon:gc3.name=G_EliteG
+entity.addon:gc4.name=G_EliteG
+entity.addon:gc5.name=G_MR_CPT
+
+item.spawn_egg.entity.addon:gc1.name=G_EliteG_AssaultSoldier
+item.spawn_egg.entity.addon:gc2.name=G_EliteG_Cerberus
+item.spawn_egg.entity.addon:gc3.name=G_EliteG_HACS
+item.spawn_egg.entity.addon:gc4.name=G_EliteG_Kukri
+item.spawn_egg.entity.addon:gc5.name=G_MR_CPT
+
+entity.addon:gb6_drone.name=Drone
+
+entity.addon:ca.name=Allied Army
+
+entity.addon:pmc.name=PMC Army
+
+item.spawn_egg.entity.addon:gb1.name=G_VeteranG_HeavyMG
+item.spawn_egg.entity.addon:gb2.name=G_VeteranG_Assault
+item.spawn_egg.entity.addon:gb3.name=G_VeteranG_Sniper
+item.spawn_egg.entity.addon:gb4.name=G_VeteranG_Flamethrower
+item.spawn_egg.entity.addon:gb5.name=ベテランゲリラ-RPG
+item.spawn_egg.entity.addon:gb6.name=G_VeteranG_DroneGuided
+
+item.spawn_egg.entity.zex:stand.name=Stand
+
+item.spawn_egg.entity.addon:arr.name=
+item.spawn_egg.entity.addon:mg1.name=
+item.spawn_egg.entity.addon:mg2.name=
+
+entity.addon:arr.name=
+entity.addon:mg.name=
+entity.addon:mg2.name=
+
+item.spawn_egg.entity.zex:iceblaze.name=Spawn Frost
+item.spawn_egg.entity.zex:icezombie.name=Spawn Zombie
+
+item.spawn_egg.entity.addon:ga.name=G_S
+item.spawn_egg.entity.addon:pmc.name=PMC Army
+item.spawn_egg.entity.addon:ca.name=Allied Army
+item.spawn_egg.entity.addon:a1.name=Flag [Allied]
+item.spawn_egg.entity.addon:a2.name=Flag [Enemy]
+
+
+item.spawn_egg.entity.addon:b1.name=BulletCraftingMachine
+item.spawn_egg.entity.addon:b2.name=GunCraftingMachine_Tier1
+item.spawn_egg.entity.addon:b3.name=GunCraftingMachine_Tier2
+item.spawn_egg.entity.addon:b4.name=GunCraftingMachine_Tier3
+item.spawn_egg.entity.addon:b5.name=GunCraftingMachine_Tier4
+item.spawn_egg.entity.addon:b6.name=VehicleCraftingMachine
+
+item.spawn_egg.entity.vehicle:m113.name=M113
+item.spawn_egg.entity.vehicle:m113.name=M113
+item.spawn_egg.entity.vehicle:aifv.name=AIFV
+item.spawn_egg.entity.vehicle:m1126.name=M1126
+item.spawn_egg.entity.vehicle:m1128.name=M1128
+item.spawn_egg.entity.vehicle:lav25.name=LAV25
+item.spawn_egg.entity.vehicle:t34.name=T-34
+item.spawn_egg.entity.vehicle:m41.name=M41A3
+item.spawn_egg.entity.vehicle:m1a2.name=M1A2
+item.spawn_egg.entity.vehicle:t72.name=T-72
+item.spawn_egg.entity.vehicle:m60.name=M60A1
+item.spawn_egg.entity.vehicle:kv2.name=KV-2
+item.spawn_egg.entity.vehicle:pt76.name=PT-76
+item.spawn_egg.entity.vehicle:t55.name=T-55
+item.spawn_egg.entity.vehicle:tech.name=TechnicalTruck
+
+entity.vehicle:m113.name=M113
+entity.vehicle:t34.name=T-34
+entity.vehicle:m41.name=M41A3
+entity.vehicle:m1a2.name=M1A2
+entity.vehicle:t72.name=T-72
+entity.vehicle:tech.name=TechnicalTruck
+entity.vehicle:m60.name=M60A1
+entity.vehicle:kv2.name=KV-2
+entity.vehicle:pt76.name=PT-76
+entity.vehicle:t55.name=T-55
+
+item.spawn_egg.entity.vehicle:f18.name=F/A-18
+item.spawn_egg.entity.vehicle:ah1s.name=AH-1S
+
+entity.vehicle:f18.name=F/A-18
+entity.vehicle:ah1s.name=AH-1S
+
+item.spawn_egg.entity.mg:dp28.name=Set_MG_DP-28
+item.spawn_egg.entity.mg:m249.name=Set_MG_M249
+item.spawn_egg.entity.mg:rpk.name=Set_MG_RPK
+item.spawn_egg.entity.mg:flak18.name=Anti-tankGun_Flak18
+
+item.spawn_egg.entity.addon:st1.name=ST1
+item.spawn_egg.entity.addon:st1r.name=BOSS ST1
+item.spawn_egg.entity.addon:merg08.name=BOSS MERG08
+item.spawn_egg.entity.addon:merg08b.name=BOSS MERG08SN
+
+entity.addon:st1.name=ST1
+entity.addon:st1r.name=BOSS ST1
+entity.addon:merg08.name=BOSS MERG08
+entity.addon:merg08b.name=BOSS MERG08SN
+
+item.zex:km.name=CalorieMate
+item.zex:sp=Scrap
+item.gun:tank=Tank Weapon
+item.gun:mgg=MG Weapon
+item.zex:mm9=9mmHGBullet
+item.zex:1270m=.50CalBullet
+item.zex:556m=.22CalBullet
+item.zex:762m=.30CalBullet
+item.zex:rocketm=76mmRocket
+item.zex:btm=Battery
+item.zex:rep=Wrench
+item.zex:ps=Plastic
+item.zex:health=FirstAidKit
+item.gun:bomb=Grenade
+item.zex:health.name=FirstAidKit
+item.gun:bomb.name=Grenade
+item.zex:ps_boots.name=PlasticBoots
+item.zex:ps_helmet.name=PlasticHelmet
+item.zex:ps_leggings.name=PlasticLeggings
+item.zex:ps_chestplate.name=PlasticPlate
+
+item.zex:akb_boots.name=プラスチックブーツ
+item.zex:akb_helmet.name=FireMask
+item.zex:akb_leggings.name=プラスチックレギンス
+item.zex:akb_chestplate.name=プラスチックプレート
+
+item.zex:hkt_boots.name=プラスチックブーツ
+item.zex:hkt_helmet.name=DroneGuidedHelmet
+item.zex:hkt_leggings.name=プラスチックレギンス
+item.zex:hkt_chestplate.name=DroneGuidedArmor
+
+item.zex:ske_boots.name=プラスチックブーツ
+item.zex:ske_helmet.name=MGHelmet
+item.zex:ske_leggings.name=プラスチックレギンス
+item.zex:ske_chestplate.name=プラスチックプレート
+
+item.zex:nmb_boots.name=TrenchBoots
+item.zex:nmb_helmet.name=TrenchMask
+item.zex:nmb_leggings.name=TrenchLeggings
+item.zex:nmb_chestplate.name=TrenchArmor
+
+item.zex:icerod=Frost lod
+item.zex:icepowder=Frost Powder
+item.zex:icecharge=Frost Charge
+
+item.zex:green_boots.name=GhillieSuit_Boots
+item.zex:green_helmet.name=GhillieSuit_Head
+item.zex:green_leggings.name=GhillieSuit_Leggings
+item.zex:green_chestplate.name=GhillieSuit_Body
+
+item.zex:dro_helmet.name=DroneGuidedHelmet
+item.zex:dro_chestplate.name=DroneGuidedArmor
+
+item.item:blue=Follow
+item.item:green=Wait
+item.item:red=SquadCommandRadio
+item.item:yellow=Take Flag
+
+item.zex:knife=KukriKnife
+
+tile.zex:good1.name=Cadaver
+tile.zex:good2.name=Scrap_Block
+tile.zex:good3.name=Cardboard
+tile.zex:good4.name=Backpack
+tile.zex:ds1.name=Dungeon_Camp
+tile.zex:ds2.name=Dungeon_GuerrillaHideout
+tile.zex:ds3.name=Dungeon_Anti-tankPlace
+tile.zex:ds4.name=Dungeon_MGPlace
+tile.zex:ds5.name=Dungeon_Bunker
+tile.zex:ds6.name=Dungeon_AbandonedBunker
+tile.zex:dm1.name=Dungeon_Airfield
+tile.zex:dm2.name=Dungeon_CannonPosition
+tile.zex:dm3.name=Dungeon_Metro
+tile.zex:dl1.name=Dungeon_City
+tile.zex:dl2.name=Dungeon_AbandonedFactory
+tile.zex:dl3.name=Dungeon_Desertcity
+tile.zex:dl4.name=Dungeon_Triumphal_Arch
+tile.zex:dl5.name=Dungeon_Ruins
+tile.zex:da1.name=Dungeon_Garrison
+
+action.gvc.craft0=Ammo Crafter
+action.gvc.craft1=BulletCraftingMachine
+action.gvc.craft2=GunCraftingMachine_Tier1
+action.gvc.craft3=GunCraftingMachine_Tier2
+action.gvc.craft4=GunCraftingMachine_Tier3
+action.gvc.craft5=GunCraftingMachine_Tier4
+action.gvc.craft6=VehicleCraftingMachine
+action.gvc.ds=decorate
+action.gvc.item=Itemization
+action.gvc.af=§bAllied Flag
+action.gvc.ef=§cEnemy Flag
+
+action.gvc.gc1=G_EliteG_AssaultSoldier

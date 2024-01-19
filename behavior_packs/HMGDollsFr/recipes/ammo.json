@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "HMG_ammo"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "DCD"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:stick",
+        "data": 0
+      },
+      "B": {
+      "item": "addon:b2_spawn_egg",
+       "data": 0
+      },
+      "C": {
+        "item": "minecraft:iron_ingot",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:gunpowder",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "zex:ammo",
+      "count": 8
+    }
+  }
+  
+}

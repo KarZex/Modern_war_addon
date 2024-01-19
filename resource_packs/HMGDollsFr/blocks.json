@@ -1,0 +1,21 @@
+{
+  "format_version": [
+    1,
+    1,
+    0
+  ],
+  "hmg:doll_craft": {
+    "textures": {
+	  "up": "doll_craftu",
+	  "side": "doll_crafts",
+	  "down": "doll_craftd"
+	}
+  },
+  "hmg:gun_craft": {
+    "textures": {
+	  "up": "gcu",
+	  "side": "gcs",
+	  "down": "gcd"
+	}
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "format_version": 1,
+  "header": {
+    "description": "ドルフロmodを再現したアドオンです。
+試験的ゲームプレイをオンにしてください。",
+    "name": "§g§lHMGDollsFrontLine Addon",
+    "uuid": "07d5c240-dbe0-11ec-8a1e-6f9002c77336",
+    "version": [0, 0, 1]
+  },
+  "modules": [
+    {
+      "description": "ドルフロmodを再現したアドオンです。
+試験的ゲームプレイをオンにしてください。",
+      "type": "data",
+      "uuid": "07d63770-dbe0-11ec-fb01-29f7aa7b50fd",
+      "version": [0, 0, 1]
+    }
+  ]
+}

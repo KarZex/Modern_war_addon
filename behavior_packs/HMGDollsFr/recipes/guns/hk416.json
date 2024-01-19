@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "HMG_Ghk416"
+    },
+    "tags": [ "gun_craft" ],
+    "pattern": [
+      "AB"
+    ],
+    "key": {
+      "A": {
+        "item": "gun:m16a4",
+        "data": 0
+      },
+      "B": {
+        "item": "gun:g36",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:book",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:dye",
+        "data": 1
+      }
+    },
+    "result": {
+      "item": "gun:hk416",
+      "count": 1
+    }
+  }
+  
+}

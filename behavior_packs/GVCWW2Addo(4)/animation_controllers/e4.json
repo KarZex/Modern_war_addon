@@ -1,0 +1,23 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.e4": {
+      "states": {
+        "default": {
+          "transitions": [
+			{ "riding": "(1.0)" }
+          ]
+        },
+        "riding": {
+          "on_entry": [
+            "/execute @s[tag=!riderd] ~~~ execute @p[family=JAP,r=2] ~~~ ride @e[type=addon:c4] stop_riding",
+			"/tag @s add riderd"
+          ],
+            "transitions": [
+                {"default": "(1.0)"}
+            ]
+        }
+      }
+    }
+  }
+}

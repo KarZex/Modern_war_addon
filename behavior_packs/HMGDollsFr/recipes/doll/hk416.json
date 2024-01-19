@@ -1,0 +1,41 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "HMG_hk416"
+    },
+    "tags": [ "doll_craft" ],
+    "pattern": [
+      "AXD",
+	  "XEX",
+	  "BXC"
+    ],
+    "key": {
+      "A": {
+        "item": "zex:ammo2",
+        "data": 0
+      },
+      "B": {
+       "item": "zex:dist2",
+       "data": 0
+      },
+      "C": {
+        "item": "zex:monpower2",
+        "data": 0
+      },
+      "D": {
+        "item": "zex:parts2",
+        "data": 0
+      },
+      "E": {
+        "item": "zex:contract",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "doll:hk416_spawn_egg",
+      "count": 1
+    }
+  }
+  
+}

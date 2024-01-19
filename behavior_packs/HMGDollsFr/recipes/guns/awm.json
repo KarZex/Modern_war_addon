@@ -1,0 +1,37 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "HMG_Gawm"
+    },
+    "tags": [ "gun_craft" ],
+    "pattern": [
+      "CCC",
+      "BAA",
+      "XBB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:iron_ingot",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:emerald",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:glass",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:dye",
+        "data": 1
+      }
+    },
+    "result": {
+      "item": "gun:awm",
+      "count": 1
+    }
+  }
+  
+}
