@@ -1,0 +1,1 @@
+effect @s[tag=!ride] resistance 99999 5 true

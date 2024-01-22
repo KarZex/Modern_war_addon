@@ -1,0 +1,17 @@
+{
+  "format_version": 1,
+  "header": {
+    "description": "",
+    "name": "§l§gModern War Addon",
+    "uuid": "286b4da0-b0a0-11ee-9078-13565a30f298",
+    "version": [0, 0, 1]
+  },
+  "modules": [
+    {
+      "description": "",
+      "type": "resources",
+      "uuid": "286bc2d0-b0a0-11ee-a525-f9b5b4ba50b0",
+      "version": [0, 0, 1]
+    }
+  ]
+}

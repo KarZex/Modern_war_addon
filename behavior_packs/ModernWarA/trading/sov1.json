@@ -1,0 +1,461 @@
+{
+  "tiers": [
+    {
+      "groups": [
+        {
+          "trades": [
+            {
+              "max_uses": 500,
+              "wants": [
+                {
+                  "item": "minecraft:redstone",
+                  "quantity": 5
+                },
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "item:e1",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 500,
+              "wants": [
+                {
+                  "item": "minecraft:redstone",
+                  "quantity": 5
+                },
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "item:e3",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 500,
+              "wants": [
+                {
+                  "item": "minecraft:redstone",
+                  "quantity": 5
+                },
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 8
+                }
+              ],
+              "gives": [
+                {
+                  "item": "item:iron_bt",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 500,
+              "wants": [
+                {
+                  "item": "minecraft:redstone",
+                  "quantity": 5
+                },
+                {
+                  "item": "minecraft:diamond_ingot",
+                  "quantity": 8
+                }
+              ],
+              "gives": [
+                {
+                  "item": "item:diamond_bt",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 500,
+              "wants": [
+                {
+                  "item": "minecraft:redstone",
+                  "quantity": 5
+                },
+                {
+                  "item": "minecraft:netherlite_ingot",
+                  "quantity": 8
+                }
+              ],
+              "gives": [
+                {
+                  "item": "item:netherlite_bt",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 500,
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 5
+                },
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "gun:ak47",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 500,
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 5
+                },
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "gun:m4",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 500,
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 5
+                },
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "gun:m16a4",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 500,
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 5
+                },
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "gun:an94",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 500,
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 5
+                },
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "gun:ak12",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 500,
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 5
+                },
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "gun:mp5",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 500,
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 5
+                },
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "gun:ump9",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 500,
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 5
+                },
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "gun:svd",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 500,
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 5
+                },
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "gun:m82",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 500,
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 5
+                },
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "gun:tt33",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 500,
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 5
+                },
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "gun:m249",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 500,
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 5
+                },
+                {
+                  "item": "minecraft:iron_ingot",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "gun:rpk",
+                  "quantity": 1
+                }
+              ]
+            },
+            {
+              "max_uses": 500,
+              "wants": [
+                {
+                  "item": "minecraft:redstone",
+                  "quantity": 5
+                },
+                {
+                  "item": "minecraft:iron_block",
+                  "quantity": 2
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:spawn_egg",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_actor_id",
+                      "id": "vehicle:m113"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "max_uses": 500,
+              "wants": [
+                {
+                  "item": "minecraft:redstone",
+                  "quantity": 5
+                },
+                {
+                  "item": "minecraft:iron_block",
+                  "quantity": 2
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:spawn_egg",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_actor_id",
+                      "id": "vehicle:t72"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "max_uses": 500,
+              "wants": [
+                {
+                  "item": "minecraft:redstone",
+                  "quantity": 5
+                },
+                {
+                  "item": "minecraft:iron_block",
+                  "quantity": 2
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:spawn_egg",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_actor_id",
+                      "id": "vehicle:m1a2"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "max_uses": 500,
+              "wants": [
+                {
+                  "item": "minecraft:redstone",
+                  "quantity": 5
+                },
+                {
+                  "item": "minecraft:iron_block",
+                  "quantity": 2
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:spawn_egg",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_actor_id",
+                      "id": "vehicle:ah6"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "max_uses": 500,
+              "wants": [
+                {
+                  "item": "minecraft:redstone",
+                  "quantity": 5
+                },
+                {
+                  "item": "minecraft:iron_block",
+                  "quantity": 2
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:spawn_egg",
+                  "quantity": 1,
+                  "functions": [
+                    {
+                      "function": "set_actor_id",
+                      "id": "vehicle:ka50"
+                    }
+                  ]
+                }
+              ]
+            }
+            
+          ]
+        }
+      ]
+    }
+  ]
+}
